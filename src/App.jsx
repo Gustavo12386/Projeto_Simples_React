@@ -7,6 +7,7 @@ import {pratosPrincipais, sobremesas, bebidas} from "./cardapio";
 
 export function App() {
   const paginasMenu = [pratosPrincipais, sobremesas, bebidas];
+  // atualizar estado do componente
   const [paginaSelecionda, atualizarPaginaSelecionada] = useState(0);
 
   return <>
